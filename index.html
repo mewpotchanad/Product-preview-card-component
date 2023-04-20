@@ -8,9 +8,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
     <title>Frontend Mentor | Product preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
       rel="stylesheet"
-      href="https://fonts.google.com/specimen/Montserrat, https://fonts.google.com/specimen/Fraunces"
     />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -54,7 +56,8 @@
       }
       p {
         font-size: 14px;
-        font-family: "Fraunces", sans-serif;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
       }
       h2 {
         font-family: "Montserrat", sans-serif;
@@ -62,7 +65,7 @@
         font-weight: 500;
       }
       h1 {
-        font-family: "Fraunces", sans-serif;
+        font-family: "Fraunces", serif;
         font-size: 30px;
         margin-top: 0;
         margin-bottom: 0;
@@ -76,7 +79,7 @@
         font-weight: bold;
         font-size: 15px;
         text-align: center;
-        font-family: "Fraunces", sans-serif;
+        font-family: "Montserrat", sans-serif;
       }
       .cart:hover {
         cursor: pointer;
@@ -108,10 +111,24 @@
           for the House of CHANEL.
         </p>
         <div class="price">
-          <span style="font-size: 40px; margin-right: 10px; color: hsl(158, 36%, 37%)">
+          <span
+            style="
+              font-size: 40px;
+              margin-right: 10px;
+              color: hsl(158, 36%, 37%);
+              font-family: 'Fraunces', serif;
+            "
+          >
             $149.99</span
           >
-          <span style="font-size: 20px; text-decoration: line-through">$169.99</span>
+          <span
+            style="
+              font-size: 15px;
+              text-decoration: line-through;
+              font-family: 'Montserrat', sans-serif;
+            "
+            >$169.99</span
+          >
         </div>
 
         <a class="cart">
